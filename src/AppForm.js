@@ -55,7 +55,7 @@ export default function AppForm({ route, navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#D93600',
+    backgroundColor: '#034f84',
     alignItems: 'center',
   },
   title: {
@@ -69,8 +69,6 @@ const styles = StyleSheet.create({
     marginTop: 30,
     width: '90%',
     padding: 20,
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
     alignItems: 'stretch',
     backgroundColor: '#fff'
   },

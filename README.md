@@ -1,5 +1,5 @@
 A simple mobile CRUD built with React Native.
 
-# Instructions
+## Instructions
 
-Run 'expo start'
+run 'expo start'
