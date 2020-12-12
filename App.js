@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
-import AppTab from './src/AppTab';
+import AppTab from './AppTab';
 
 export default function App() {
-  return (
+  return ( 
     <>
-    <AppTab />
-    <StatusBar style="light" />
+      <AppTab />
+      <StatusBar style="light" />
     </>
   );
 }
