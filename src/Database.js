@@ -14,14 +14,13 @@ async function saveItem(listItem, id) {
     return AsyncStorage.setItem('items', JSON.stringify(savedItems));
 }
 
-function getItems(){
-    return AsyncStorage.getItem('items')
-        .then(response => {
-            if(response)
-                return Promise.resolve(JSON.parse(response));
-            else
-                return Promise.resolve([]);
-        })
+async function getItems(){
+    const response = await AsyncStorage.getItem('items');
+    if (response)
+        return Promise.resolve(JSON.parse(response));
+
+    else
+        return Promise.resolve([]);
 }
 
 async function getItem(id){
