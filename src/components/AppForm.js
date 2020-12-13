@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import { Feather as Icon } from '@expo/vector-icons';
-import Database from './Database';
+import Database from '../db/Database';
   
 export default function AppForm({ route, navigation }) {
   const id = route.params ? route.params.id : undefined;

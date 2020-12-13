@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useState, useEffect} from 'react';
 import { StyleSheet, View, Text, ScrollView } from 'react-native';
 import AppItem from './AppItem';
-import Database from './Database';
+import Database from '../db/Database';
  
 export default function AppList({ route, navigation }) {
   const [items, setItems] = useState([]);

@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
-import AppTab from './src/AppTab';
+import AppTab from './src/components/AppTab';
 
 export default function App() {
   return ( 
